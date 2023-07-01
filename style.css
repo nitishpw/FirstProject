@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+   background-image: url(flower.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box{
+    width: 500px;
+    height: 250px;
+    background-color:#ffff;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30;
+    margin: auto;
+    margin-top: 300px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    
+}
+.box h1{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+button{
+ padding: 5px 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#displayvalue {
+  font-size: 20px;
+  padding: 5px 15px;
+  border: 1px solid black;
+  /* width: 10px;
+  height: 5px; */
+}
+#reset{
+    margin-top: 10px;
+}
